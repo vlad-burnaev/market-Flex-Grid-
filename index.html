@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Котятки</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="root">
+		<header>
+			<h1>Бабуленькины котятки</h1>
+		</header>
+		<div class="content">
+			<input type="radio" name="category" id="category-ab" class="hidden">
+			<input type="radio" name="category" id="category-br" class="hidden">
+			<input type="radio" name="category" id="category-blue" class="hidden">
+			<input type="radio" name="category" id="category-siam" class="hidden">
+			<nav>
+				<label for="category-ab" class="menu-item"><div>Абиссинская</div></label>
+				<label for="category-br" class="menu-item"><div>Британская</div></label>
+				<label for="category-blue" class="menu-item"><div>Русская голубая</div></label>
+				<label for="category-siam" class="menu-item"><div>Сиамская</div></label>
+			</nav>
+			<main>
+				<div class="cat1 cat" category="ab">
+					<div class="cat-info">Гоша, 4&nbsp;года</div>
+				</div>
+				<div class="cat2 cat" category="blue">
+					<div class="cat-info">Аркаша, 6&nbsp;лет</div>
+				</div>
+				<div class="cat3 cat" category="br">
+					<div class="cat-info">Маша, 3&nbsp;года</div>
+				</div>
+				<div class="cat4 cat" category="siam">
+					<div class="cat-info">Дарт Вейдер, 30&nbsp;лет</div>
+				</div>
+				<div class="cat5 cat" category="ab">
+					<div class="cat-info">Экенекен Скайуокер, 4&nbsp;года</div>
+				</div>
+				<div class="cat6 cat" category="siam">
+					<div class="cat-info">Чубака, 16&nbsp;лет</div>
+				</div>
+				<div class="cat7 cat" category="blue">
+					<div class="cat-info">Алексей Щербаков, 28&nbsp;лет</div>
+				</div>
+				<div class="cat8 cat" category="br">
+					<div class="cat-info">Нурлан Сабуров, 30&nbsp;лет</div>
+				</div>
+			</main>
+			<aside>
+				<div class="wrapper">
+					<h3>Рейтинг</h3>
+
+					<input type="checkbox" name="rating" id="sort">
+					<label for="sort" class="checkbox">по убыванию</label>
+
+					<div class="rating">
+						<div class="rating-item">
+							<div class="rating-item_name">Абиссинская</div>
+							<div class="rating-item_wrap">
+								<div class="rating-item_color">
+									<div class="rating-item_line green" style="width: 90%"></div>
+								</div>
+								<div class="rating-item_value">9</div>
+							</div>
+						</div>
+
+						<div class="rating-item">
+							<div class="rating-item_name">Британская</div>
+							<div class="rating-item_wrap">
+								<div class="rating-item_color">
+									<div class="rating-item_line yellow" style="width: 80%"></div>
+								</div>
+								<div class="rating-item_value">8</div>
+							</div>
+						</div>
+
+						<div class="rating-item">
+							<div class="rating-item_name">Русская голубая</div>
+							<div class="rating-item_wrap">
+								<div class="rating-item_color">
+									<div class="rating-item_line green" style="width: 100%"></div>
+								</div>
+								<div class="rating-item_value">10</div>
+							</div>
+						</div>
+
+						<div class="rating-item">
+							<div class="rating-item_name">Сиамская</div>
+							<div class="rating-item_wrap">
+								<div class="rating-item_color">
+									<div class="rating-item_line red" style="width: 40%"></div>
+								</div>
+								<div class="rating-item_value">4</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+		<footer>
+			<div class="copyright">© ООО Бабуленькины котятки, 2015</div>
+			<address>
+				<a href="#">Наш адрес: улица Котовая, д.5</a>
+			</address>
+		</footer>
+	</div>
+</body>
+</html>
